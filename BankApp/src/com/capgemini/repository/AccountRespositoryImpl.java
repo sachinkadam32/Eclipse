@@ -44,6 +44,7 @@ public class AccountRespositoryImpl implements AccountRespository {
 		mapAccount.put(acc.getAccountNumber(),account);
 		
 		System.out.println("AddAmount After adding amount:"+mapAccount);
+			System.out.println("Sachin:"+mapAccount);
 				
 		return totalAmount;
 	}
